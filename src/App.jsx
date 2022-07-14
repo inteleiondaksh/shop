@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/women" component={Women}/>
       <Route exact path="/men" component={Men}/>
       <Route exact path="/form" component={Form}/>
+      <Route component={Home}/>
     </Switch>
     </>
   );
